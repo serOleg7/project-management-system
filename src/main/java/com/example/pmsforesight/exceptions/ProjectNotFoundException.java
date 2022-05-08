@@ -1,0 +1,11 @@
+package com.example.pmsforesight.exceptions;
+
+import org.springframework.http.HttpStatus;
+import org.springframework.web.bind.annotation.ResponseStatus;
+
+@ResponseStatus(code = HttpStatus.NOT_FOUND)
+public class ProjectNotFoundException extends RuntimeException {
+    public ProjectNotFoundException(String uid) {
+        super("Not found project with id: " + uid);
+    }
+}

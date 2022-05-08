@@ -1,0 +1,8 @@
+{
+  "properties": [
+    {
+      "name": "pathFile.value",
+      "type": "java.lang.String",
+      "description": "Description for pathFile.value."
+    }
+  ] }
