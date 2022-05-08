@@ -1,4 +1,4 @@
 # project-management-system
-Project Management System API with Swagger
+Project Management System API with Swagger. "\n"
 API which store projects and tasks in memory DB H2.
 http://localhost:8080/swagger-ui/index.html
